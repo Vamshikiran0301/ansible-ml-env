@@ -1,0 +1,18 @@
+# 🧠 Ansible-Automated ML Experimentation Environment
+
+This project automates the setup of a machine learning experimentation environment using **Ansible** and **WSL2 Ubuntu** on Windows. It installs essential ML tools such as **TensorFlow**, **PyTorch**, **Jupyter Notebook**, and **MLflow** — all inside a Python virtual environment.
+
+> ⚙️ Designed for data scientists, MLOps engineers, and students who want a one-command setup for local ML experimentation.
+
+## 📦 What's Automated
+
+- ✅ System dependencies
+- ✅ Python virtual environment
+- ✅ ML packages: TensorFlow, PyTorch, Jupyter, MLflow
+- ✅ Jupyter Notebook (localhost:8888)
+- ✅ MLflow Tracking UI (localhost:5000)
+
+## 🚀 Quick Start
+
+```bash
+ansible-playbook -i ansible/inventory.ini ansible/playbook.yml --ask-become-pass

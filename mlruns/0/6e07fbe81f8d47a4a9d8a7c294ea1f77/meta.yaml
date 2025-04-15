@@ -1,0 +1,15 @@
+artifact_uri: file:///home/vmekala/ansible-ml-env/mlruns/0/6e07fbe81f8d47a4a9d8a7c294ea1f77/artifacts
+end_time: 1744739194412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6e07fbe81f8d47a4a9d8a7c294ea1f77
+run_name: rumbling-lamb-487
+run_uuid: 6e07fbe81f8d47a4a9d8a7c294ea1f77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744739191296
+status: 3
+tags: []
+user_id: vmekala
