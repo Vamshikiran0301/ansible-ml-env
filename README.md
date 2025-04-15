@@ -75,8 +75,23 @@ TensorFlow & PyTorch – ML frameworks.
 Jupyter Notebook – Interactive coding.
 MLflow – Experiment tracking.
 
-**Why It Matters**
-This project shows how IaC can streamline ML workflows, saving time and ensuring consistency. It’s a stepping stone to production-grade MLOps, reflecting my passion for automating AI infrastructure at scale. Whether you’re tinkering with models or learning DevOps, I hope it sparks your creativity!
+**MLflow Test Experiment**
+
+This project includes a simple test script to make sure MLflow is working correctly.
+
+The script:
+- Generates a fake dataset using NumPy
+- Trains a basic Linear Regression model using scikit-learn
+- Logs the model, parameters, and mean squared error (MSE) to MLflow
+- Lets you view the run in the MLflow UI at [http://localhost:5000](http://localhost:5000)
+
+---
+
+**How to Run It**
+
+Make sure MLflow is already running:
+```bash
+/home/vmekala/ml_env/bin/mlflow ui --host 0.0.0.0 --port 5000
 
 **Author**
 Vamshi Mekala
